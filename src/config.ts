@@ -38,6 +38,59 @@ Do NOT use for token safety checks -- use token_check_safety. Do NOT use for swa
         },
         required: [],
       },
+      outputSchema: {
+          "type": "object",
+          "properties": {
+            "chain": {
+              "type": "string",
+              "description": "Chain (solana)"
+            },
+            "results": {
+              "type": "number",
+              "description": "Number of tokens found"
+            },
+            "minLiquidityFilter": {
+              "type": "number"
+            },
+            "tokens": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "mint": {
+                    "type": "string"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "symbol": {
+                    "type": "string"
+                  },
+                  "priceUsd": {
+                    "type": "number"
+                  },
+                  "marketCap": {
+                    "type": "number"
+                  },
+                  "liquidity": {
+                    "type": "number"
+                  },
+                  "volume24h": {
+                    "type": "number"
+                  },
+                  "buys24h": {
+                    "type": "number"
+                  }
+                }
+              }
+            }
+          },
+          "required": [
+            "chain",
+            "results",
+            "tokens"
+          ]
+        },
     },
   ],
 };
