@@ -3,7 +3,7 @@
   "name": "io.github.Br0ski777/solana-launches",
   "title": "Solana Token Launch Scanner API",
   "description": "New Solana token launches \u2014 pump.fun, Raydium, PumpSwap. Price, liquidity, volume. x402.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "websiteUrl": "https://github.com/Br0ski777/solana-launches-x402",
   "repository": {
     "url": "https://github.com/Br0ski777/solana-launches-x402",
