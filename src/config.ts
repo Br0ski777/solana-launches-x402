@@ -9,7 +9,7 @@ export const API_CONFIG: ApiConfig = {
     {
       method: "GET",
       path: "/api/launches",
-      price: "$0.003",
+      price: "$0.008",
       description: "Get recently launched tokens on Solana with market data",
       toolName: "solana_scan_new_tokens",
       toolDescription: `Use this when you need to find newly launched tokens on Solana. Returns recent token launches from pump.fun, Raydium, PumpSwap, and Orca with market data and safety signals.
