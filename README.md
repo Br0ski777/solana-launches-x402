@@ -35,7 +35,7 @@ Any x402-aware client ([`@x402/fetch`](https://www.npmjs.com/package/@x402/fetch
 
 | Tool | Method | Path | Price | Description |
 |---|---|---|---|---|
-| `solana_scan_new_tokens` | GET | `/api/launches` | $0.003 | Get recently launched tokens on Solana with market data |
+| `solana_scan_new_tokens` | GET | `/api/launches` | $0.008 | Get recently launched tokens on Solana with market data |
 
 ### `solana_scan_new_tokens`
 
